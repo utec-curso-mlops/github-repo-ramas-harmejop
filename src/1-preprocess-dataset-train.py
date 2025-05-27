@@ -2,8 +2,13 @@ import fire
 import pandas as pd
 import sklearn.metrics as metrics
 import os
+
 #agrengando nueva funcionalidad de preprocess data
 #terminamos de hacer cambios
+#este comentario simula la correcion de un bug
+#se encontro error en el proceso e limpieza 
+#se conbino el conflicto
+
 class PreprocessData:
     _output_path = ""
     _correlation_cutoff = 0.70
