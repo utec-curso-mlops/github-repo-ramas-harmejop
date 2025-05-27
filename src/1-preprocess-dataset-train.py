@@ -3,7 +3,8 @@ import pandas as pd
 import sklearn.metrics as metrics
 import os
 
-
+#este comentario simula la correcion de un bug
+#se encontro error en el proceso e limpieza 
 class PreprocessData:
     _output_path = ""
     _correlation_cutoff = 0.70
